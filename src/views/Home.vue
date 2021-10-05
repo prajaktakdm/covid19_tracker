@@ -4,7 +4,7 @@
      
 
      <div class="country d-flex justify-content-center mb-2">
-       <CountrySelect @get-country="getCountryData" :countries="countries"/>
+      <CountrySelect @get-country="getCountryData" :countries="countries"/>
 
       <button @click="clearCountryData"
           :disabled="!stats.Country"

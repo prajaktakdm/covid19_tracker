@@ -1,7 +1,10 @@
 <template>
-    <div class="grid">
+<div class="container">
+
+
+    <div class="row d-flex justify-content-center">
         <!-- Box-1 -->
-        <div class="cases shadow-sm p-3 mb-3 rounded">
+        <div class="cases col-sm-5  shadow-sm p-3 m-2 rounded">
             <h3 class="	font-size-1.875rem line-height-2.25rem font-bold ">Cases</h3>
 
             <div class="mb-2 text-dark">
@@ -15,7 +18,7 @@
         </div>
 
         <!-- Box-2 -->
-        <div class="cases shadow-sm p-3 mb-3 rounded">
+        <div class="cases col-sm-5  shadow-sm p-3 m-2 rounded">
             <h3 class="font-bold ">Deaths</h3>
 
             <div class="mb-2 text-dark">
@@ -28,6 +31,7 @@
             </div>
         </div>
     </div>
+</div>
 </template>
 
 
