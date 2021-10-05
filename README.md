@@ -1,5 +1,8 @@
 # covid19_tracker
 
+## Live Demo
+[Click Here](https://cranky-spence-600b38.netlify.app/)
+
 ## Project setup
 ```
 npm install
